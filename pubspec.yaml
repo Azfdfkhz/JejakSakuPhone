@@ -1,0 +1,63 @@
+name: jejak_saku_phone
+description: "Jejak Saku - Interactive Mobile Widget & Field Companion for PKL"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Database
+  drift: ^2.23.0
+  sqlite3_flutter_libs: ^0.5.28
+
+  # Remote
+  supabase_flutter: ^2.8.4
+
+  # Google Drive
+  google_sign_in: ^6.2.2
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+
+  # Home Screen Widget
+  home_widget: ^0.7.0
+
+  # Camera & Image
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+
+  # Connectivity
+  connectivity_plus: ^6.1.1
+
+  # UI
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+
+  # Utilities
+  uuid: ^4.5.1
+  shared_preferences: ^2.3.4
+  collection: ^1.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.23.0
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/

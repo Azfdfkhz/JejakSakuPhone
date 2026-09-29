@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_small_desc">Jejak Saku 1x1: companion dan akses chat</string>
+    <string name="widget_medium_desc">Jejak Saku 2x1: reminder, dokumentasi, presensi, chat</string>
+    <string name="widget_large_desc">Jejak Saku 2x2: jadwal berikutnya dan aksi cepat</string>
+</resources>
